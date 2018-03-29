@@ -4,10 +4,10 @@ public class MatchOversDetail {
 	private int totalRunsOver=0;
 	int CurrentBall=0;
 	
-	public void addRunsperBall(int runs){
-		overBalls[CurrentBall]=runs;
+	public void addRunsperBall(int Runs){
+		overBalls[CurrentBall]=Runs;
 		CurrentBall++;
-		totalRunsOver+=runs;
+		totalRunsOver+=Runs;
 	}
 	public int getScorePerOver(){
 		return totalRunsOver;

@@ -37,7 +37,7 @@ public class MatchScoreBoardDetail {
 	}
 	public void getScorePer(){
 		for(int i=0;i<TotalOvers;i++){
-			System.out.println("Over 1: "+(i+1)+" Runs: "+overs[i].getScorePerOver());
+			System.out.println("Over 1: "+(i+1)+" Total Runs: "+overs[i].getScorePerOver());
 			overs[i].printScorePerBallInCurrentOver();
 		}
 	}

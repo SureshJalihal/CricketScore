@@ -7,7 +7,6 @@ public class ScoreBoardTestDetail {
 	MatchScoreBoardDetail score1=new MatchScoreBoardDetail();
 	@Test
 	public void testScoreBoard() {
-//		fail("Not yet implemented");
 	}
 
 	@Test
